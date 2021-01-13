@@ -16,6 +16,10 @@ the functions in this class are:
 * v_size- returns the vertex(nodes) size in the graph.
 * e_size- returns the edges size in the graph.
 * add edge- Adds an edge to the graph.
-add_node-	Adds an node to the graph.
-remove_node-	Removes a node from the graph.
-remove_edge-	Removes a edge from the graph.
+* add_node-	Adds an node to the graph.
+* remove_node-	Removes a node from the graph.
+* remove_edge-	Removes a edge from the graph.
+* get_all_v- returns a dictionary of all the nodes in the Graph, each node is represented using a pair (node_id, node_data)
+* all_in_edges_of_node- returns	a dictionary of all nodes connected to (to) node_id - entering it
+* all_out_edges_of_node- returns a dictionary of all nodes connected from node_id - exiting it
+
