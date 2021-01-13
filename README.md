@@ -37,4 +37,5 @@ I used algorithm to check the shortest path between 2 nodes in graph -dijkstra i
 * load_from_json	Loads a graph from a json file.
 * save_to_json	Saves the graph in JSON format to a file
 
+in conclusion we compared the code we wrote against parallel solutions in the previous project, We made the comparison as follows: Correctness test - on the same test files the same json files, Comparative test of runtime on the same scenarios - with an emphasis on the algorithms. We have attached graphs of the results - runtimes of the algorithms In Python (in this project), in Java, and in Networkx (we used this directory, which someone has already built to compare the results of our algorithms with the results of the library).
 
