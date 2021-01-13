@@ -13,9 +13,9 @@ In this class there are edge thst consists of 2 nodes - src and dest and each ed
 ## DiGraph:
 In this class there is edges size, mode counter (mc) and graph, I used hash map for the nodes and hash map for the edges.
 the functions in this class are:
-v_size- returns the vertex(nodes) size in the graph.
-e_size- returns the edges size in the graph.
-add edge- Adds an edge to the graph.
+* v_size- returns the vertex(nodes) size in the graph.
+* e_size- returns the edges size in the graph.
+* add edge- Adds an edge to the graph.
 add_node-	Adds an node to the graph.
 remove_node-	Removes a node from the graph.
 remove_edge-	Removes a edge from the graph.
