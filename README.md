@@ -33,3 +33,8 @@ I used algorithms to check if all nodes in graph are connected for that I used T
 ### Shortest path :
 I used algorithm to check the shortest path between 2 nodes in graph -dijkstra is algorithm that we maintain two sets one set contains vertices included in shortest path tree, other set includes vertices not yet included in shortest path tree At every step of the algorithm, we find a vertex which is in the other set (set of not yet included) and has a minimum distance from the source. my implementation requires Priority Queue to access in distance order.
 * Dijkstra - to find the shortest route in the graph, and to return the list of sides in the shortest route in the graph. In methods: shortestpathDist, shortestpath
+### more function in this class:
+* load_from_json	Loads a graph from a json file.
+* save_to_json	Saves the graph in JSON format to a file
+
+
