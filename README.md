@@ -1,3 +1,5 @@
+![286cb380-8657-11e9-90c9-d48f47432160](https://user-images.githubusercontent.com/74466654/104622118-8538a880-5699-11eb-9365-7c24746bdad6.png)
+
 # DiGraph
 ## about the project
 In this project we dealt with the development of data structures of directed weighted graph,We created a system of building the graph, creating the node vertices and even in the previous project it was divided into two parts, the first building the graph and the second building a game. In addition we implemented a number of algorithms on the graph such as: connected, shortest path distance and more…
@@ -29,10 +31,12 @@ In this class there are algorithms that we used to the graph,
 I used algorithms to check if all nodes in graph are connected for that I used Tarjan(strongly connected components) algorithm and Dfs (depth first search) algorithm.
 * Tarjan-Tarjan strongly connected components is an algorithm in graph theory for finding the strongly connected components (SCCs) of a directed graph.
 * Depth-first search (DFS) is an algorithm for traversing or searching tree or graph data structures in our case is graph. the dfs algorithm checks the node on which it was activated, and then runs itself recursively on each of the nodes linked to the node to which it was activated, if it has not yet visited them, In order to remember which nodes the algorithm has already visited I used stack to put all the visited nodes.
-
+![tarajan](https://user-images.githubusercontent.com/74466654/104622522-0d1eb280-569a-11eb-96de-e0257b264b1b.png)
+![dfs](https://user-images.githubusercontent.com/74466654/104622500-04c67780-569a-11eb-9b7c-5e714feb18dc.jpg)
 ### Shortest path :
 I used algorithm to check the shortest path between 2 nodes in graph -dijkstra is algorithm that we maintain two sets one set contains vertices included in shortest path tree, other set includes vertices not yet included in shortest path tree At every step of the algorithm, we find a vertex which is in the other set (set of not yet included) and has a minimum distance from the source. my implementation requires Priority Queue to access in distance order.
 * Dijkstra - to find the shortest route in the graph, and to return the list of sides in the shortest route in the graph. In methods: shortestpathDist, shortestpath
+![dijakstra](https://user-images.githubusercontent.com/74466654/104622516-0a23c200-569a-11eb-9960-68e7b16bc99b.jpg)
 ### more function in this class:
 * load_from_json	Loads a graph from a json file.
 * save_to_json	Saves the graph in JSON format to a file
